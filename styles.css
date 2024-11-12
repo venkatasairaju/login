@@ -1,0 +1,173 @@
+/* *{
+    margin: 0%;
+    box-sizing: border-box;
+} */
+.whole-page{
+    display: flex;
+    background-color: #fcf7f7;
+}
+/* .side-img{
+    width:50%;
+    margin-top: 0px;
+} */
+img{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    object-position:center;
+    display: flex;
+    align-self: flex-end;
+}
+.login{
+    width: 50%;
+    margin: 10rem auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+
+}
+.link{
+    text-decoration: none;
+}
+.sign-para{
+    color: gray;
+    font-size: 24px;
+    margin-bottom: 2px;
+    margin-top: 80px;
+}
+.para-two{
+    color: gray;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.g{
+    padding-right: 8px;
+    color: white;
+    font-weight: bolder;
+}
+.google-button{
+    width: 250px;
+    padding:4px 10px 4px 10px;
+    color: white;
+    background-color: #dd4b39;
+    border: none;
+    text-align: center;
+    border-radius: 2px;
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    
+
+}
+.google-button:hover{
+    background-color: #ca3523;
+}
+.f{
+    padding-right: 8px;
+    color: white;
+    font-weight: bolder;
+}
+.facebook-button{
+    width: 250px;
+     padding:4px 10px 4px 10px;
+    color: white;
+    background-color: #3b5998;
+    border: none;
+    text-align: center;
+    border-radius: 2px;
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+
+}
+.facebook-button:hover{
+    background-color: #30487b;
+}
+.email{
+    border: 1px solid #e0e0e0;
+    margin-bottom: 6px;
+    display: block;
+    width: 230px;
+    padding:4px 10px 4px 10px;
+    outline: none;
+    margin-bottom: 15px;
+  
+}
+.email:focus {
+    border-color: blue;
+  }
+.password{
+    border: 1px solid #e0e0e0;
+    margin-bottom: 6px;
+    display: block;
+    width: 230px;
+    padding:4px 10px 4px 10px;
+    outline: none;
+    margin-bottom: 30px;
+}
+.password:focus{
+    border-color: blue;
+}
+.login-button{
+    cursor: pointer;
+    width: 250px;
+    padding:4px 10px 4px 10px;
+   color: white;
+   background-color: #4f99ed;
+   border: none;
+   text-align: center;
+   border-radius: 2px;
+   display: block;
+   margin-bottom: 50px;
+   transition: background-color 0.15s;
+}
+.login-button:hover{
+    background-color: #2a84e9;
+}
+.last-line{
+    font-size: 10px;
+    margin-left: 14%;
+    color: #2e8bfc;
+
+}
+.one{
+    border-right: 1.3px solid gray;
+    margin-right:2px ;
+   padding-right: 4px;
+    vertical-align: middle;
+}
+.one:hover{
+    color: blue;
+}
+.two{
+    border-right: 1.3px solid gray;
+    margin-right:2px ;
+    padding: 0px 1px 0px 1px;
+    vertical-align: middle;
+    margin-right: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.two:hover{
+    color: blue;
+}
+.three{
+    vertical-align: middle;
+    margin-left: 2px;
+}
+.three:hover{
+    color: blue;
+}
+hr{
+    width:250px;
+    margin-left: 0px;
+    border-color:rgb(250, 249, 249);
+    margin-bottom: 20px;
+}
+
